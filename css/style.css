@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', helvetica, sans-serif;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    background-image: url(../img/dark_stripes.png);
+}
+
+.welcome {
+    height: 20vh;
+    width: 100%;
+    background-color: #0088a9;
+    color: white;
+}
+
+
+.navBar {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+}
+
+.navLinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 30px;
+}
+
+.navBar li a {
+    color: white;
+    font-size: 1em;
+    padding-top: 10px;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    color: #0088a9;
+    padding-top: 20px;
+}
+
+button {
+
+    padding: 10px 25px;
+    margin-left: 50px;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}

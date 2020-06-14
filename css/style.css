@@ -11,7 +11,7 @@
     background-image: url(../img/dark_stripes.png);
 }
 
-
+/* sekcja welcome/ */
 .welcome {
     height: 10vh;
     width: 100%;
@@ -28,7 +28,7 @@ span {
     font-size: 1.5em;
 }
 
-
+/* sekcja navigacja */
 .navBar {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -76,6 +76,7 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.7);
 }
 
+/* sekcja o mnie  */
 .aboutMe {
     position: relative;
     height: 90vh;
@@ -113,7 +114,7 @@ button:hover {
     opacity: 0.7;
 }
 
-
+/* sekcja umiejętności */
 .skills {
     height: 80vh;
     text-align: center;
@@ -284,21 +285,22 @@ button:hover {
     background-position: center;
     background-attachment: fixed;
     color: white;
+
 }
 
 .slogan h1 {
-    font-size: 36px;
+    font-size: 46px;
     text-transform: uppercase;
     margin-bottom: 25px;
 
 }
 
 .slogan p {
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .slogan p.author {
-    margin-top: 20px;
+    margin-top: 26px;
     font-size: 16px;
 }
 
@@ -307,4 +309,115 @@ button:hover {
     height: 50vh;
     background-color: rgba(0, 63, 114, 0.5);
 
+}
+
+/* sekcja hobby */
+
+.hobby {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.hobby .item {
+    height: 25vh;
+
+}
+
+.hobby .item {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hobby .item:nth-of-type(1) {
+    background-image: url(../img/Rodzina.jpg);
+}
+
+.hobby .item:nth-of-type(2) {
+    background-image: url(../img/koszykowka.jpg);
+}
+
+.hobby .item:nth-of-type(3) {
+    background-image: url(../img/gotowanie.jpg);
+}
+
+.hobby .item:nth-of-type(4) {
+    background-image: url(../img/gadżety.jpg);
+}
+
+
+.hobby .item p {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.hobby h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+@media (min-width:533px) {
+    .hobby .item {
+        float: left;
+        width: 50%;
+        height: 40vh;
+    }
+}
+
+@media (min-width:768px) {
+
+    .hobby h1 {
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+
+    }
+
+    .hobby .item p {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hobby .item p {
+        padding: 0;
+        line-height: 40vh;
+        opacity: 0;
+        transition: 1s;
+        cursor: default;
+    }
+
+    .hobby .item:hover p {
+        opacity: 1;
+    }
+
+    .hobby .item {
+        background-size: 100%;
+        transition: 1s;
+    }
+
+    .hobby .item:hover {
+        background-size: 130%;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .hobby h1 {
+        font-size: 60px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+
+    }
+
+    .hobby .item p {
+        font-size: 40px;
+    }
 }

@@ -273,3 +273,38 @@ button:hover {
     color: white;
     font-size: 16px;
 }
+
+/* sekcja slogan */
+
+.slogan {
+    text-align: center;
+    background-image: url(../img/mountains-4521455_1280.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.slogan h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.slogan p {
+    font-size: 26px;
+}
+
+.slogan p.author {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.slogan .bg {
+    padding: 30px 10px;
+    height: 50vh;
+    background-color: rgba(0, 63, 114, 0.5);
+
+}

@@ -117,27 +117,29 @@ button:hover {
 .skills {
     height: 80vh;
     text-align: center;
+    background-color: white;
     /* margin: 25px auto 0; */
     padding-top: 5%;
 }
 
 .skills h1 {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-size: 34px;
+    font-weight: bold;
     padding-bottom: 5%;
 
 }
 
 .skills h2 {
-    color: white;
+    color: black;
     justify-content: center;
     font-size: 22px;
 
 }
 
 .skills p {
-    color: white;
+    color: black;
     justify-content: center;
     font-size: 14px;
     font-weight: 300;
@@ -155,8 +157,6 @@ button:hover {
     width: 100%;
     height: 300px;
 
-    /* padding: 10px 20px; */
-    /* border-radius: 40px; */
 }
 
 .feature {
@@ -167,6 +167,7 @@ button:hover {
 
 .feature h2 {
     font-size: 22px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -177,4 +178,98 @@ button:hover {
     font-weight: 300;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* .portfolio {
+    
+
+} */
+
+.portfolio>h1 {
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+.web1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+}
+
+.web1 img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.about-a {
+    height: 400px;
+    float: right;
+    flex-grow: 1;
+    background-color: red;
+
+}
+
+.about-a h2 {
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    text-indent: 20px;
+}
+
+.about-a p {
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+
+
+.web2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-basis: 440px;
+    height: 380px;
+
+}
+
+.web2 img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.about-b {
+    height: 400px;
+    background-color: lightblue;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.about-b h2 {
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    /* margin-bottom: 12px;
+    padding-bottom: 6px;
+    text-indent: 20px; */
+}
+
+.about-b p {
+    color: white;
+    font-size: 16px;
 }
